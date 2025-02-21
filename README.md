@@ -22,7 +22,7 @@ Kodunuzu çalıştırdığınızda herhangi bir çıktı alamıyor veya hata mes
 Syslog dosya birimini etkinleştirmek için sırasıyla aşağıdaki komutları sisteminizin terminaline (komut istemcisi) yazınız.
 
 Yüklemek için:
-sudo apt update && sudo apt install rsyslog -y (Bu komutun sonuna eklenen '-y', yükleme işlemi sırasında karşınıza çıkacak tüm onay sorularına otomatik olarak 'evet' yanıtı verilir ve işlem hızlanır.)
+*sudo apt update && sudo apt install rsyslog -y (Bu komutun sonuna eklenen '-y', yükleme işlemi sırasında karşınıza çıkacak tüm onay sorularına otomatik olarak 'evet' yanıtı verilir ve işlem hızlanır.)
 
 Yükleme tamamlandıktan sonra aktifleştirmek için:
 *sudo systemctl start rsyslog && sudo systemctl enable rsyslog 
